@@ -1,0 +1,48 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * Footer styles.
+ * ----------------------------------------------------------------------------------------
+ */
+ footer{
+ 	.container-fluid{
+ 		background-color: #fff;
+ 	 	box-shadow: 10px 6px 10px grey;
+ 	 	padding-top: 70px;
+ 	 	.col-md-2{
+		    a{
+		    color: #34065A;
+		    font-size: 30px;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-family: 'Fira Sans';
+		    }
+		    p{
+		    	color: #34065A;
+			    font-size: 15px;
+			    font-weight: 500;
+			    margin: 15px 0 0 -3px;
+		    }
+		    h3{
+		    	color: #34065A;
+			    font-size: 22px;
+			    margin-left: 29px;
+			    letter-spacing: -1px;
+
+}
+
+		    ul{
+		    	li{
+		    		list-style: none;
+		    		a{
+		    			color: #000c;
+					    font-size: 16px;
+					    font-weight: 500;
+					    line-height: 30px;
+
+		    		}
+		    	}
+		    }
+ 	 	}
+
+ 	}
+ }
