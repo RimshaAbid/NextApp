@@ -1,48 +1,85 @@
 /*
- * ----------------------------------------------------------------------------------------
- * Footer styles.
- * ----------------------------------------------------------------------------------------
- */
- footer{
- 	.container-fluid{
- 		background-color: #fff;
- 	 	box-shadow: 10px 6px 10px grey;
- 	 	padding-top: 70px;
- 	 	.col-md-2{
-		    a{
-		    color: #34065A;
-		    font-size: 30px;
-		    text-decoration: none;
-		    font-weight: bold;
-		    font-family: 'Fira Sans';
-		    }
-		    p{
-		    	color: #34065A;
-			    font-size: 15px;
-			    font-weight: 500;
-			    margin: 15px 0 0 -3px;
-		    }
-		    h3{
-		    	color: #34065A;
-			    font-size: 22px;
-			    margin-left: 29px;
-			    letter-spacing: -1px;
-
+* ----------------------------------------------------------------------------------------
+* Footer styles.
+* ----------------------------------------------------------------------------------------
+*/
+footer{
+.container-fluid{
+background-color: #fff;
+box-shadow: 10px 12px 10px grey;
+padding-top: 70px;
+padding-bottom:70px;
+.col-md-2{
+a{
+color: #34065A;
+font-size: 30px;
+text-decoration: none;
+font-weight: bold;
+font-family: 'Fira Sans';
 }
-
-		    ul{
-		    	li{
-		    		list-style: none;
-		    		a{
-		    			color: #000c;
-					    font-size: 16px;
-					    font-weight: 500;
-					    line-height: 30px;
-
-		    		}
-		    	}
-		    }
- 	 	}
-
- 	}
- }
+p{
+color: #34065A;
+font-size: 15px;
+font-weight: 500;
+margin: 15px 0 0 -3px;
+}
+h3{
+color: #34065A;
+font-size: 22px;
+margin-left: 29px;
+letter-spacing: -1px;
+}
+ul{
+li{
+list-style: none;
+a{
+color: #000c;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+&:hover{
+color: #3406ef;
+text-decoration: underline;
+transition: .2s;
+}
+}
+}
+}
+}
+}
+}
+#container{
+background-color:#fff;
+box-shadow: 10px 10px 10px grey;
+.footer{
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+margin-left: 250px;
+a{
+margin-left: 25px;
+font-size: 11px;
+font-weight: 400;
+color: lightgrey;
+}
+}
+.footer-col{
+margin-top: -25px;
+select{
+border:none;
+font-size: small;
+margin-left: -5px;
+}
+}
+.foot-col {
+display: flex;
+margin-top: -25px;
+margin-left: auto;
+a{
+margin-left:10px;
+}
+.facbook-icon{
+margin-left: 25px; 
+}
+}
+}

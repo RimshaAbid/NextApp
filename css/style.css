@@ -418,7 +418,7 @@ small {
  * ----------------------------------------------------------------------------------------
  */
 body {
-  padding: 100px 60px 0 60px;
+  padding: 100px 60px 100px 60px;
   background: lightgray; }
 
 .section-area {
@@ -777,8 +777,9 @@ body {
  */
 footer .container-fluid {
   background-color: #fff;
-  box-shadow: 10px 6px 10px grey;
-  padding-top: 70px; }
+  box-shadow: 10px 12px 10px grey;
+  padding-top: 70px;
+  padding-bottom: 70px; }
   footer .container-fluid .col-md-2 a {
     color: #34065A;
     font-size: 30px;
@@ -801,7 +802,39 @@ footer .container-fluid {
       color: #000c;
       font-size: 16px;
       font-weight: 500;
-      line-height: 30px; }
+      line-height: 35px; }
+      footer .container-fluid .col-md-2 ul li a:hover {
+        color: #3406ef;
+        text-decoration: underline;
+        transition: .2s; }
+
+#container {
+  background-color: #fff;
+  box-shadow: 10px 10px 10px grey; }
+  #container .footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 250px; }
+    #container .footer a {
+      margin-left: 25px;
+      font-size: 11px;
+      font-weight: 400;
+      color: lightgrey; }
+  #container .footer-col {
+    margin-top: -25px; }
+    #container .footer-col select {
+      border: none;
+      font-size: small;
+      margin-left: -5px; }
+  #container .foot-col {
+    display: flex;
+    margin-top: -25px;
+    margin-left: auto; }
+    #container .foot-col a {
+      margin-left: 10px; }
+    #container .foot-col .facbook-icon {
+      margin-left: 25px; }
 
 /*
  * ----------------------------------------------------------------------------------------

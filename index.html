@@ -4,316 +4,410 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Next App</title>
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
       <link rel="stylesheet" type="text/css" href="css/style.css">
    </head>
    <body>
       <header style="background: url(image/back.jpg) no-repeat;background-size: cover; height:auto; width: 100%;  box-shadow: 10px 3px 10px grey;">
          <nav class="navbar navbar-expand-lg">
-         <div class="container-fluid my-container-fluid">
-            <a class="navbar-brand" href="#">
-               <p><img src="image/icon.png"><small>NextApp</small></p>
+            <div class="container-fluid my-container-fluid">
+               <a class="navbar-brand" href="#">
+                  <p><img src="image/icon.png"><small>NextApp</small></p>
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarToggler">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="http://www.nextapp.com/">Features</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="http://www.nextapp.com/apps/">Pricing</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link " href="http://www.nextapp.com/solutions/">About us</a>
+                     </li>
+                  </ul>
+                  <a href="http://www.nextapp.com/" class="btn" type="button">Get started Today!</a>
+               </div>
+            </div>
+         </nav>
+         <div class="container">
+            <h5>Accomplish Now, Get you<br>App today!!</h5>
+            <p>thousand of Users trust NextApp to<br>create beautiful Apps...</p>
+            <a href="https://youtu.be/ewZ_YWbIWXI">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="60px" width="30px" class="icon">
+                  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path style="fill: red;" d="M188.3 147.1C195.8 142.8 205.1 142.1 212.5 147.5L356.5 235.5C363.6 239.9 368 247.6 368 256C368 264.4 363.6 272.1 356.5 276.5L212.5 364.5C205.1 369 195.8 369.2 188.3 364.9C180.7 360.7 176 352.7 176 344V167.1C176 159.3 180.7 151.3 188.3 147.1V147.1zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/>
+               </svg>
+               Watch our
+               <p class="link">video!!</p>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-               <ul class="navbar-nav">
-                  <li class="nav-item">
-                     <a class="nav-link " aria-current="page" href="http://www.nextapp.com/">Features</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="http://www.nextapp.com/apps/">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link " href="http://www.nextapp.com/solutions/">About us</a>
-                  </li>
+         </div>
+      </header>
+      <section class="section-area">
+         <div class="container">
+            <div class="row">
+               <h5 class="heaing">
+                  NextApp brings all your creativity together !!
+               </h5>
+               <small class="sub-heading">When you need a Kickstart in your business and you have no time for your website,</small>
+               <small id="sub-heading">we will take that job for you and build a great apps or weebsite in minutes.</small>
+               <ul class="navlist">
+                  <li ><a href="" class="active-link"><img src="image/image1.png">AI Page Builder</a></li>
+                  <li><a href=""><img src="image/image2.png">Fast to Customize</a></li>
+                  <li><a href=""><img src="image/image3.png">Fits with Any App</a></li>
                </ul>
-               <a href="http://www.nextapp.com/" class="btn" type="button">Get started Today!</a>
+               <div class="col-md-1"></div>
+               <div class="col-md-1"></div>
+               <div class="col-md-4 column">
+                  <img src="image/imag1.png" alt="">
+               </div>
+               <div class="col-md-4 column-second ">
+                  <h4>Bulid anything, anytime!</h4>
+                  <ul>
+                     <li>
+                        <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod
+                           tempo incididunt ut labore et dolore magna aliqua. Ut enim no exercitation ullamco laboris nisi ut aliquip ea commodo.
+                        </p>
+                     </li>
+                     <li>
+                        <p>Lorem ipsum dolor, consectetur adipisicing elit, sed do a
+                           tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                     </li>
+                  </ul>
+                  <p>
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="20px" width="20px" class="svg-comma">
+                        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/>
+                     </svg>
+                     Lorem ipsum dolor sit amet, consectetur adipingelit, sed do eiusmod
+                     tempor incididunt ut labore et dolore magna. 
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="20px" width="20px">
+                        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/>
+                     </svg>
+                  </p>
+                  <small>alex CTO OF test.co</small>
+               </div>
+               <div class="col-md-1"></div>
+               <div class="col-md-1"></div>
             </div>
          </div>
-      </nav>
-      <div class="container">
-         <h5>Accomplish Now, Get you<br>App today!!</h5>
-         <p>thousand of Users trust NextApp to<br>create beautiful Apps...</p>
-         <a href="https://youtu.be/ewZ_YWbIWXI"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="60px" width="30px" class="icon"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill: red;" d="M188.3 147.1C195.8 142.8 205.1 142.1 212.5 147.5L356.5 235.5C363.6 239.9 368 247.6 368 256C368 264.4 363.6 272.1 356.5 276.5L212.5 364.5C205.1 369 195.8 369.2 188.3 364.9C180.7 360.7 176 352.7 176 344V167.1C176 159.3 180.7 151.3 188.3 147.1V147.1zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg>Watch our<p class="link">video!!</p></a>
-         
-      </div>
-   </header>
-   <section class="section-area">
-     <div class="container">
-       <div class="row">
-         <h5 class="heaing">
-           NextApp brings all your creativity together !!
-         </h5>
-         <small class="sub-heading">When you need a Kickstart in your business and you have no time for your website,</small>
-         <small id="sub-heading">we will take that job for you and build a great apps or weebsite in minutes.</small>
-         <ul class="navlist">
-           <li ><a href="" class="active-link"><img src="image/image1.png">AI Page Builder</a></li>
-           <li><a href=""><img src="image/image2.png">Fast to Customize</a></li>
-           <li><a href=""><img src="image/image3.png">Fits with Any App</a></li>
-         </ul>
-         <div class="col-md-1"></div>
-         <div class="col-md-1"></div>
-         <div class="col-md-4 column">
-           <img src="image/imag1.png" alt="">
+         <div class="container-fluid bg-color">
+            <div class="row">
+               <h3 class="text-light text-center">How NextApp works for you?</h3>
+               <span class=" text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+               <div class="col-md-4" id="col-side"></div>
+               <div class="col-md-1 my-colum">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="40px" width="40px" class="svg-icon">
+                     <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                     <path  style="fill: #fff;"d="M352 96h64c17.7 0 32 14.3 32 32V384c0 17.7-14.3 32-32 32H352c-17.7 0-32 14.3-32 32s14.3 32 32 32h64c53 0 96-43 96-96V128c0-53-43-96-96-96H352c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-7.5 177.4c4.8-4.5 7.5-10.8 7.5-17.4s-2.7-12.9-7.5-17.4l-144-136c-7-6.6-17.2-8.4-26-4.6s-14.5 12.5-14.5 22v72H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H160v72c0 9.6 5.7 18.2 14.5 22s19 2 26-4.6l144-136z"/>
+                  </svg>
+               </div>
+               <div class="col-md-1 my-colum-arrow">
+                  <img src="image/arrow.png" class="img-icon-arrow">
+               </div>
+               <div class="col-md-1 my-colum">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="40px" width="40px" class="svg-icon">
+                     <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                     <path  style="fill: #fff;" d="M128 136c0-22.1-17.9-40-40-40L40 96C17.9 96 0 113.9 0 136l0 48c0 22.1 17.9 40 40 40H88c22.1 0 40-17.9 40-40V136zm0 192c0-22.1-17.9-40-40-40H40c-22.1 0-40 17.9-40 40v48c0 22.1 17.9 40 40 40H88c22.1 0 40-17.9 40-40V328zm32-192v48c0 22.1 17.9 40 40 40h48c22.1 0 40-17.9 40-40V136c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40zM288 328c0-22.1-17.9-40-40-40H200c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40h48c22.1 0 40-17.9 40-40V328zm32-192v48c0 22.1 17.9 40 40 40h48c22.1 0 40-17.9 40-40V136c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40zM448 328c0-22.1-17.9-40-40-40H360c-22.1 0-40 17.9-40 40v48c0 22.1 17.9 40 40 40h48c22.1 0 40-17.9 40-40V328z"/>
+                  </svg>
+               </div>
+               <div class="col-md-1 my-colum-arrow">
+                  <img src="image/arrow.png" class="img-icon-arrow">
+               </div>
+               <div class="col-md-1 my-colum">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  height="60px" width="40px" class="svg-icon">
+                     <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                     <path  style="fill: #fff;" d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                  </svg>
+               </div>
+               <div class="col-md-3"></div>
+               <div class="row">
+                  <div class="col-md-3 second-row">
+                     <span class="text-center">Login or Signup in NextApp to get<br>started!!</span>
+                  </div>
+                  <div class="col-md-3 second-rows">
+                     <span class="text-center">Using our super powerful buldier,<br>build your apps.</span>     
+                  </div>
+                  <div class="col-md-3 second-rows">
+                     <span class="text-center">When you are done, hit the publish<br>button to show the world!
+                     </span>  
+                  </div>
+               </div>
+            </div>
          </div>
-         <div class="col-md-4 column-second ">
-          <h4>Bulid anything, anytime!</h4>
-          <ul>
-            <li><p>Lorem ipsum dolor sit amet, elit, sed do eiusmod
-            tempo incididunt ut labore et dolore magna aliqua. Ut enim no exercitation ullamco laboris nisi ut aliquip ea commodo.</p></li>
-            <li><p>Lorem ipsum dolor, consectetur adipisicing elit, sed do a
-            tempor incididunt ut labore et dolore magna aliqua.</p></li>          
-          </ul>
-
-          <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="20px" width="20px" class="svg-comma"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>Lorem ipsum dolor sit amet, consectetur adipingelit, sed do eiusmod
-             tempor incididunt ut labore et dolore magna. <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="20px" width="20px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/></svg></p>
-          <small>alex CTO OF test.co</small>
+      </section>
+      <section>
+         <div class="container-fluid fluid">
+            <div class="row">
+               <div class="col-md-2 column-width"></div>
+               <div class="col-md-4">
+                  <img src="image/imag2.jpg">
+               </div>
+               <div class="col-md-4">
+                  <h3>Built for growth</h3>
+                  <small>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</small>
+                  <div class="links">
+                     <a href="https://www.w3schools.com/html/default.asp">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="40px" width="40px">
+                           <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                           <path style="fill: red;" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
+                        </svg>
+                     </a>
+                     <a href="https://www.w3schools.com/css/default.asp">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="40px" width="40px">
+                           <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                           <path style="fill: blue;" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/>
+                        </svg>
+                     </a>
+                     <a href="https://www.w3schools.com/js/default.asp">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="40px" width="40px">
+                           <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                           <path style="fill: #eded15;" d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/>
+                        </svg>
+                     </a>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua ex.</small><br><br>
+                  <a href="https://www.w3schools.com/spaces/">Try NextApp now !!</a>
+               </div>
+               <div class="col-md-2 column-width"></div>
+            </div>
+            <div class="row">
+               <div class="col-md-2 column-width"></div>
+               <div class="col-md-4">
+                  <h3 class="head">800+ Unique Blocks!!</h3>
+                  <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut<br> enim ad minim veniam,
+                  quis aliquip ex.</small>
+                  <br><br>
+                  <a href="https://livecanvas.com/documentation/the-livecanvas-html-structure/">Check all blocks live!!</a>
+               </div>
+               <div class="col-md-4 img">
+                  <img src="image/imag3.png">
+               </div>
+               <div class="col-md-2 column-width"></div>
+            </div>
+            <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br>
+                        <a href=""><img src="image/sm-imag.jpg">John Doe</a>
+                     </p>
+                  </div>
+                  <div class="swiper-slide">
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br>
+                        <a href=""><img src="image/sm-imag.jpg">John Doe</a>
+                     </p>
+                  </div>
+                  <div class="swiper-slide">
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br>
+                        <a href=""><img src="image/sm-imag.jpg">John Doe</a>
+                     </p>
+                  </div>
+               </div>
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-pagination"></div>
+            </div>
+            <div class="links-icon">
+               <!--paypal-->
+               <a href="https://www.paypal.com">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="30px" width="30px">
+                     <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                     <path style="fill: lightgray;" d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2zM357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6z"/>
+                  </svg>
+                  payPal
+               </a>
+               <!--lenovo-->
+               <a href="https://www.lenovo.com/us/en/pc/">Lenovo</a>
+               <!--google-->
+               <a href="https://www.google.com/">Google</a>
+               <!--airbnb-->
+               <a href="http://www.airbnb.com/">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="30px" width="30px">
+                     <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                     <path style="fill: lightgray;"  d="M224 373.12c-25.24-31.67-40.08-59.43-45-83.18-22.55-88 112.61-88 90.06 0-5.45 24.25-20.29 52-45 83.18zm138.15 73.23c-42.06 18.31-83.67-10.88-119.3-50.47 103.9-130.07 46.11-200-18.85-200-54.92 0-85.16 46.51-73.28 100.5 6.93 29.19 25.23 62.39 54.43 99.5-32.53 36.05-60.55 52.69-85.15 54.92-50 7.43-89.11-41.06-71.3-91.09 15.1-39.16 111.72-231.18 115.87-241.56 15.75-30.07 25.56-57.4 59.38-57.4 32.34 0 43.4 25.94 60.37 59.87 36 70.62 89.35 177.48 114.84 239.09 13.17 33.07-1.37 71.29-37.01 86.64zm47-136.12C280.27 35.93 273.13 32 224 32c-45.52 0-64.87 31.67-84.66 72.79C33.18 317.1 22.89 347.19 22 349.81-3.22 419.14 48.74 480 111.63 480c21.71 0 60.61-6.06 112.37-62.4 58.68 63.78 101.26 62.4 112.37 62.4 62.89.05 114.85-60.86 89.61-130.19.02-3.89-16.82-38.9-16.82-39.58z"/>
+                  </svg>
+                  airbnb
+               </a>
+               <!--amazone-->
+               <a href="http://www.amazon.com/">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="30px" width="30px">
+                     <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                     <path style="fill: lightgray;" d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/>
+                  </svg>
+               </a>
+            </div>
          </div>
-         <div class="col-md-1"></div>
-         <div class="col-md-1"></div>
-       </div>
-     </div>
-     <div class="container-fluid bg-color">
-       <div class="row">
-         <h3 class="text-light text-center">How NextApp works for you?</h3>
-         <span class=" text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-         <div class="col-md-4" id="col-side"></div>
-         <div class="col-md-1 my-colum">
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="40px" width="40px" class="svg-icon"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path  style="fill: #fff;"d="M352 96h64c17.7 0 32 14.3 32 32V384c0 17.7-14.3 32-32 32H352c-17.7 0-32 14.3-32 32s14.3 32 32 32h64c53 0 96-43 96-96V128c0-53-43-96-96-96H352c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-7.5 177.4c4.8-4.5 7.5-10.8 7.5-17.4s-2.7-12.9-7.5-17.4l-144-136c-7-6.6-17.2-8.4-26-4.6s-14.5 12.5-14.5 22v72H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H160v72c0 9.6 5.7 18.2 14.5 22s19 2 26-4.6l144-136z"/></svg>
-           
+         <div class="container-fluid background-color">
+            <div class="row">
+               <h3 class="text-center">Simple Pricing!!</h3>
+               <small class="text-center">Millions of people around the world have already made<br>NextApp the place where their dream happens. . .</small>
+               <div class="col-md-4"></div>
+               <div class="col-md-2 box-one">
+                  <h5 class="text-center main-title">$25</h5>
+                  <h6 class="text-center">Billed Monthly</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod elit ess
+                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <a href="https://www.w3schools.com/spaces/" class="btn btn-click">20 DAYS FREE TRIAL</a>
+               </div>
+               <div class="col-md-2 box-two">
+                  <h5 class="text-center title">$28</h5>
+                  <h6 class="text-center">Billed Anually</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod elit ess
+                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <a href="https://billing.w3schools.com/products/spaces?frequency=monthly&selectedPlan=pro-monthly" class="btn btn-clicked">7 DAYS FREE TRIAL</a>
+               </div>
+               <div class="col-md-4"></div>
+               <p class="text-center ">Both pricings contains all of our features.</p>
+            </div>
          </div>
-          <div class="col-md-1 my-colum-arrow">
-           <img src="image/arrow.png" class="img-icon-arrow">
+         <div class="container-fluid bg-coloring">
+            <div class="row">
+               <h3 class="text-center">Try NextApp for 20 days,<br> for free!</h3>
+               <small class="text-center">Millions of people around the world have already made<br>NextApp the place where their dream happens. . .</small>
+               <div class="col-md-5"></div>
+               <div class="col-md-3 ">
+                  <a href="https://billing.w3schools.com/products/spaces?frequency=monthly&selectedPlan=pro-monthly" class="btn button">GET STARTED NOW!!</a>
+               </div>
+               <div class="col-md-4"></div>
+            </div>
          </div>
-          <div class="col-md-1 my-colum">
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="40px" width="40px" class="svg-icon"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path  style="fill: #fff;" d="M128 136c0-22.1-17.9-40-40-40L40 96C17.9 96 0 113.9 0 136l0 48c0 22.1 17.9 40 40 40H88c22.1 0 40-17.9 40-40V136zm0 192c0-22.1-17.9-40-40-40H40c-22.1 0-40 17.9-40 40v48c0 22.1 17.9 40 40 40H88c22.1 0 40-17.9 40-40V328zm32-192v48c0 22.1 17.9 40 40 40h48c22.1 0 40-17.9 40-40V136c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40zM288 328c0-22.1-17.9-40-40-40H200c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40h48c22.1 0 40-17.9 40-40V328zm32-192v48c0 22.1 17.9 40 40 40h48c22.1 0 40-17.9 40-40V136c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40zM448 328c0-22.1-17.9-40-40-40H360c-22.1 0-40 17.9-40 40v48c0 22.1 17.9 40 40 40h48c22.1 0 40-17.9 40-40V328z"/></svg>
+      </section>
+      <footer>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-2"></div>
+               <div class="col-md-2" style="width:17.6%;">
+                  <a href=""><img src="image/footer-img.png"> NextApp</a>
+                  <p>Lorem ipsum dolor sit amet, consectetur  do adipisicing elit, sed do eiusmod
+                     proident, sunt in culpa qui officia  laborum.
+                  </p>
+               </div>
+               <div class="col-md-2">
+                  <h3>Company</h3>
+                  <ul>
+                     <li><a href="">About Us</a></li>
+                     <li><a href="">Careers</a></li>
+                     <li><a href="">Our Blog</a></li>
+                     <li><a href="">Brand Guidelines</a></li>
+                     <li><a href="">Contact Us</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-2">
+                  <h3>Product</h3>
+                  <ul>
+                     <li><a href="">Why NextApp?</a></li>
+                     <li><a href="">Enterprise</a></li>
+                     <li><a href="">Customer Stories</a></li>
+                     <li><a href="">Security</a></li>
+                     <li><a href="">Pricing</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-2">
+                  <h3>Resources</h3>
+                  <ul>
+                     <li><a href="">Download Apps</a></li>
+                     <li><a href="">Help Center</a></li>
+                     <li><a href="">app Guides</a></li>
+                     <li><a href="">Our Partners</a></li>
+                     <li><a href="">Next Events!</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
          </div>
-          <div class="col-md-1 my-colum-arrow">
-           <img src="image/arrow.png" class="img-icon-arrow">
+         <div class="container" id="container">
+            <div class="row" style="background: url(image/footer-imag.png)no-repeat; height: auto;
+               width: 59vw;">
+               <div class="footer">
+                  <a href="">Status</a>
+                  <a href="">privacy&Term</a>
+                  <a href="">Contact Us</a>
+               </div>
+               <div class="col-md-9"style="width: 82.5%"></div>
+               <div class="col-md-2 footer-col">
+                  <img src="image/option-img.png">
+                  <select>
+                     <option value="english">English</option>
+                     <option value="urdu">Urdu</option>
+                     <option value="spanish">Spanish</option>
+                     <option value="latin">Latin</option>
+                  </select>
+               </div>
+               <div class="col-md-1 foot-col">
+                  <!--facebook-->
+                  <a href="https://web.facebook.com/">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="20px" width="20px" class="facbook-icon">
+                        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path style="fill: #34065A;" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/>
+                     </svg>
+                  </a>
+                  <!--twitter-->
+                  <a href="https://twitter.com/">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="20px" width="20px">
+                        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path style="fill: #34065A;" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                     </svg>
+                  </a>
+                  <!--github-->
+                  <a href="https://github.com/">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" height="20px" width="20px">
+                        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path style="fill: #34065A;"  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                     </svg>
+                  </a>
+               </div>
+            </div>
          </div>
-          <div class="col-md-1 my-colum">
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  height="60px" width="40px" class="svg-icon"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path  style="fill: #fff;" d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-           
-         </div>
-          <div class="col-md-3"></div>
-          <div class="row">
-         <div class="col-md-3 second-row">
-           <span class="text-center">Login or Signup in NextApp to get<br>started!!</span>
-         </div>
-          <div class="col-md-3 second-rows">
-          <span class="text-center">Using our super powerful buldier,<br>build your apps.</span>     </div>
-          <div class="col-md-3 second-rows">
-          <span class="text-center">When you are done, hit the publish<br>button to show the world!
-          </span>  
-        </div>
-          </div>
-       </div>
-     </div>
-   </section>
-   <section>
-    <div class="container-fluid fluid">
-      <div class="row">
-       <div class="col-md-2 column-width"></div>
-       <div class="col-md-4">
-         <img src="image/imag2.jpg">
-       </div>
-       <div class="col-md-4">
-         <h3>Built for growth</h3>
-         <small>
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod
-         tempor incididunt ut labore et dolore magna aliqua.</small>
-         <div class="links">
-           <a href="https://www.w3schools.com/html/default.asp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="40px" width="40px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill: red;" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg></a>
-           <a href="https://www.w3schools.com/css/default.asp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="40px" width="40px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill: blue;" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg></a>
-           <a href="https://www.w3schools.com/js/default.asp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="40px" width="40px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill: #eded15;" d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg></a>
-         </div>
-      
-         <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod
-         tempor incididunt ut labore et dolore magna aliqua ex.</small><br><br>
-         <a href="https://www.w3schools.com/spaces/">Try NextApp now !!</a>
-       </div>
-       <div class="col-md-2 column-width"></div>
-
-     </div>
-     <div class="row">
-       <div class="col-md-2 column-width"></div>
-       <div class="col-md-4">
-          <h3 class="head">800+ Unique Blocks!!</h3>
-           <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod
-         tempor incididunt ut labore et dolore magna aliqua. Ut<br> enim ad minim veniam,
-         quis aliquip ex.</small>
-         <br><br>
-         <a href="https://livecanvas.com/documentation/the-livecanvas-html-structure/">Check all blocks live!!</a>
-
-       </div>
-       <div class="col-md-4 img">
-        <img src="image/imag3.png">
-
-       </div>
-       <div class="col-md-2 column-width"></div>
-     </div>
-     <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">    
-                       <p>
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                       <br>
-                       <a href=""><img src="image/sm-imag.jpg">John Doe</a></p>
-                   </div>
-                   <div class="swiper-slide">    
-                       <p>
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                       <br>
-                       <a href=""><img src="image/sm-imag.jpg">John Doe</a></p>
-                   </div>
-                   <div class="swiper-slide">    
-                      <p>
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                       <br>
-                       <a href=""><img src="image/sm-imag.jpg">John Doe</a></p>
-                 </div>
-                     </div>
-
-                  <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
-     </div>
-     <div class="links-icon">
-      <!--paypal-->
-      <a href="https://www.paypal.com">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="30px" width="30px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill: lightgray;" d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2zM357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6z"/></svg>payPal</a>
-        <!--lenovo-->
-        <a href="https://www.lenovo.com/us/en/pc/">Lenovo</a>
-        <!--google-->
-        <a href="https://www.google.com/">Google</a>
-        <!--airbnb-->
-        <a href="http://www.airbnb.com/">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="30px" width="30px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill: lightgray;"  d="M224 373.12c-25.24-31.67-40.08-59.43-45-83.18-22.55-88 112.61-88 90.06 0-5.45 24.25-20.29 52-45 83.18zm138.15 73.23c-42.06 18.31-83.67-10.88-119.3-50.47 103.9-130.07 46.11-200-18.85-200-54.92 0-85.16 46.51-73.28 100.5 6.93 29.19 25.23 62.39 54.43 99.5-32.53 36.05-60.55 52.69-85.15 54.92-50 7.43-89.11-41.06-71.3-91.09 15.1-39.16 111.72-231.18 115.87-241.56 15.75-30.07 25.56-57.4 59.38-57.4 32.34 0 43.4 25.94 60.37 59.87 36 70.62 89.35 177.48 114.84 239.09 13.17 33.07-1.37 71.29-37.01 86.64zm47-136.12C280.27 35.93 273.13 32 224 32c-45.52 0-64.87 31.67-84.66 72.79C33.18 317.1 22.89 347.19 22 349.81-3.22 419.14 48.74 480 111.63 480c21.71 0 60.61-6.06 112.37-62.4 58.68 63.78 101.26 62.4 112.37 62.4 62.89.05 114.85-60.86 89.61-130.19.02-3.89-16.82-38.9-16.82-39.58z"/></svg>
-          airbnb</a>
-          <!--amazone-->
-          <a href="http://www.amazon.com/">
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="30px" width="30px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill: lightgray;" d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/></svg>
-          </a>
-
-       
-     </div> 
-    </div>
-    <div class="container-fluid background-color">
-      <div class="row">
-        <h3 class="text-center">Simple Pricing!!</h3>
-        <small class="text-center">Millions of people around the world have already made<br>NextApp the place where their dream happens. . .</small>
-        <div class="col-md-4"></div>
-        <div class="col-md-2 box-one">
-          <h5 class="text-center main-title">$25</h5>
-          <h6 class="text-center">Billed Monthly</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod elit ess
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a href="https://www.w3schools.com/spaces/" class="btn btn-click">20 DAYS FREE TRIAL</a>
-        </div>
-        <div class="col-md-2 box-two">
-          <h5 class="text-center title">$28</h5>
-          <h6 class="text-center">Billed Anually</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod elit ess
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a href="https://billing.w3schools.com/products/spaces?frequency=monthly&selectedPlan=pro-monthly" class="btn btn-clicked">7 DAYS FREE TRIAL</a>
-        </div>
-        <div class="col-md-4"></div>
-        <p class="text-center ">Both pricings contains all of our features.</p>
-      </div>
-    </div>
-    <div class="container-fluid bg-coloring">
-      <div class="row">
-        <h3 class="text-center">Try NextApp for 20 days,<br> for free!</h3>
-        <small class="text-center">Millions of people around the world have already made<br>NextApp the place where their dream happens. . .</small>
-        <div class="col-md-5"></div>
-        <div class="col-md-3 ">
-        <a href="https://billing.w3schools.com/products/spaces?frequency=monthly&selectedPlan=pro-monthly" class="btn button">GET STARTED NOW!!</a>
-      </div>
-      <div class="col-md-4"></div>
-
-      </div>
-    </div>
-   </section>
-   <footer>
-     <div class="container-fluid">
-       <div class="row">
-         <div class="col-md-2"></div>
-         <div class="col-md-2" style="width:17.6%;">
-           <a href=""><img src="image/footer-img.png"> NextApp</a>
-           <p>Lorem ipsum dolor sit amet, consectetur  do adipisicing elit, sed do eiusmod
-           proident, sunt in culpa qui officia  laborum.</p>
-         </div>
-         <div class="col-md-2">
-           <h3>Company</h3>
-           <ul>
-             <li><a href="">About Us</a></li>
-             <li><a href="">Careers</a></li>
-             <li><a href="">Our Blog</a></li>
-             <li><a href="">Brand Guidelines</a></li>
-             <li><a href="">Contact Us</a></li>
-           </ul>
-         </div>
-         <div class="col-md-2">
-          <h3>Product</h3>
-           <ul>
-             <li><a href="">Why NextApp?</a></li>
-             <li><a href="">Enterprise</a></li>
-             <li><a href="">Customer Stories</a></li>
-             <li><a href="">Security</a></li>
-             <li><a href="">Pricing</a></li>
-           </ul>
-         </div>
-         <div class="col-md-2">
-           <h3>Resources</h3>
-           <ul>
-             <li><a href="">Download Apps</a></li>
-             <li><a href="">Help Center</a></li>
-             <li><a href="">app Guides</a></li>
-             <li><a href="">Our Partners</a></li>
-             <li><a href="">Next Events!</a></li>
-           </ul>
-         </div>
-         <div class="col-md-2"></div>
-
-       </div>
-     </div>
-   </footer>
-
-   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-   <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-        
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <script>
+         var swiper = new Swiper(".mySwiper", {
+           slidesPerView: 3,
+           spaceBetween: 30,
+           slidesPerGroup: 3,
+           loop: true,
+           loopFillGroupWithBlank: true,
+           pagination: {
+             el: ".swiper-pagination",
+             clickable: true,
+           },
+           navigation: {
+             nextEl: ".swiper-button-next",
+             prevEl: ".swiper-button-prev",
+           },
+         });
+      </script>
    </body>
 </html>
